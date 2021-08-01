@@ -1,0 +1,59 @@
+{
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/schema.json",
+    "_meta": {
+        "sources": [{
+            "json": "DND",
+            "abbreviation": "DND",
+            "full": "DND Party",
+            "authors": [
+                "Seejers",
+                "K9"
+            ],
+            "convertedBy": [
+                "Thunder"
+            ],
+            "version": "1.0.0",
+            "url": "https://docs.google.com/document/d/1Dzklqx1HpdioZ42fI21yGPdtXyBJfr9cBL0ivJZoTnw/edit?usp=sharing",
+            "targetSchema": "1.0.0"
+        }],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "item": [{
+            "name": "Mana Potion",
+            "source": "DND",
+            "rarity": "common",
+            "type": "P",
+            "weight": 0.5,
+            "value": 4000,
+            "entries": [
+                "A faint blue light radiates from this vial of blue fluid, like an aura of magical light. Crafted from the unstable, refined essence of mana crystals, these potions can recharge a magic wielder's spell slot, the level or which is determined by the type of potion. However, due to the recent discovery of mana refining, these potions can be highly unstable, occasionally dealing psychic damage to those who consume it.",
+                "When you consume a mana potion, you regain one expended spell slot between 1st and 5th level. You then roll {@dice 1d6}. If the result is lower than the recovered spell slot, you take 1d6 psychic damage for the difference between the result, and the level of the recovered spell slot. You take {@dice 1d6} damage if rolling a 1 to recover a first level spell slot."
+            ]
+        },
+        {
+            "name": "Potion of Healing",
+            "source": "DND",
+            "otherSources": [{
+                    "source": "DMG",
+                    "page": 187
+                },
+                {
+                    "source": "PHB",
+                    "page": 153
+                }
+            ],
+            "type": "P",
+            "tier": "minor",
+            "rarity": "common",
+            "weight": 0.5,
+            "value": 5000,
+            "entries": [
+                "You regain 10 hit points when you drink this potion. The potion's red liquid glimmers when agitated."
+            ],
+            "lootTables": [
+                "Magic Item Table A"
+            ]
+        }
+    ]
+}
