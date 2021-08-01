@@ -16,12 +16,18 @@
             "url": "https://docs.google.com/document/d/1Dzklqx1HpdioZ42fI21yGPdtXyBJfr9cBL0ivJZoTnw/edit?usp=sharing",
             "targetSchema": "1.0.0"
         }],
+        "dependencies": {
+            "item": [
+                "DMG"
+            ]
+        },
         "dateAdded": 0,
         "dateLastModified": 0
     },
     "item": [{
             "name": "Mana Potion",
             "source": "DND",
+            "page": 0,
             "rarity": "common",
             "type": "P",
             "weight": 0.5,
@@ -34,6 +40,11 @@
         {
             "name": "Potion of Healing",
             "source": "DND",
+            "page": 0,
+            "_copy": {
+                "name": "Potion of Healing",
+                "source": "DMG"
+            },
             "otherSources": [{
                     "source": "DMG",
                     "page": 187
@@ -43,17 +54,114 @@
                     "page": 153
                 }
             ],
-            "type": "P",
-            "tier": "minor",
-            "rarity": "common",
-            "weight": 0.5,
-            "value": 5000,
             "entries": [
                 "You regain 10 hit points when you drink this potion. The potion's red liquid glimmers when agitated."
-            ],
-            "lootTables": [
-                "Magic Item Table A"
             ]
+        },
+        {
+            "name": "Pistol",
+            "source": "DND",
+            "page": 0,
+            "type": "R",
+            "rarity": "none",
+            "weight": 5,
+            "entries": [
+                "Firearms are a very new invention by ____.",
+                "Due to firearms igniting their powder with a slow burning cord match, a firearm also has a 25% chance (1-5 on your attack roll) of not firing in heavy rain, and a 10% chance (1-2 on your attack roll) of not firing in light rain."
+            ],
+            "weaponCategory": "Simple",
+            "ammunition": true,
+            "property": [
+                "F",
+                "L",
+                "LD"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "range": "60/240",
+            "weapon": true
+        },
+        {
+            "name": "Blunderbuss",
+            "source": "DND",
+            "page": 0,
+            "type": "R",
+            "rarity": "none",
+            "weight": 8,
+            "entries": [
+                "Firearms are a very new invention by ____.",
+                "Due to firearms igniting their powder with a slow burning cord match, a firearm also has a 25% chance (1-5 on your attack roll) of not firing in heavy rain, and a 10% chance (1-2 on your attack roll) of not firing in light rain."
+            ],
+            "weaponCategory": "Simple",
+            "ammunition": true,
+            "property": [
+                "F",
+                "LD",
+                "SP"
+            ],
+            "dmg1": "2d4",
+            "dmgType": "P",
+            "range": "30/90",
+            "weapon": true
+        },
+        {
+            "name": "Arquerbus",
+            "source": "DND",
+            "page": 0,
+            "type": "R",
+            "rarity": "none",
+            "weight": 10,
+            "entries": [
+                "Firearms are a very new invention by ____.",
+                "Due to firearms igniting their powder with a slow burning cord match, a firearm also has a 25% chance (1-5 on your attack roll) of not firing in heavy rain, and a 10% chance (1-2 on your attack roll) of not firing in light rain."
+            ],
+            "weaponCategory": "Simple",
+            "ammunition": true,
+            "property": [
+                "F",
+                "LD",
+                "H",
+                "2H"
+            ],
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "range": "80/320",
+            "weapon": true
+        },
+        {
+            "name": "Musket",
+            "source": "DND",
+            "page": 0,
+            "type": "R",
+            "rarity": "none",
+            "weight": 12,
+            "entries": [
+                "Firearms are a very new invention by ____.",
+                "Due to firearms igniting their powder with a slow burning cord match, a firearm also has a 25% chance (1-5 on your attack roll) of not firing in heavy rain, and a 10% chance (1-2 on your attack roll) of not firing in light rain."
+            ],
+            "weaponCategory": "Simple",
+            "ammunition": true,
+            "property": [
+                "F",
+                "LD",
+                "H",
+                "2H"
+            ],
+            "dmg1": "1d12",
+            "dmgType": "P",
+            "range": "100/400",
+            "weapon": true
         }
-    ]
+    ],
+    "itemProperty": [{
+        "abbreviation": "SP",
+        "source": "DND",
+        "entries": [{
+            "type": "entries",
+            "name": "Spread",
+            "entries": [
+                "When you are within a third of your range add {@dice 1d4} to your damage"
+            ]
+        }]
+    }]
 }
